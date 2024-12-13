@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.theme,
       darkTheme: AppTheme.darkTheme,
       themeMode: themeProvider.themeMode,
-      initialRoute: '/main',
+      initialRoute: '/splash',
       onGenerateRoute: (settings) {
         if (settings.name == '/room-details') {
           final roomProvider =
